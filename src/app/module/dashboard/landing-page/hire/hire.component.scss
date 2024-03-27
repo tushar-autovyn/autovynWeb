@@ -1,0 +1,47 @@
+
+/**********************************
+ ** - 17 - Hire Section CSS
+ **********************************/
+ .hire-section {
+	position: relative;
+	z-index: 1;
+	padding: 70px 0;
+	text-align: center;
+	background-image: url(../../../../../assets/img/banner-bg.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.hire-section::before {
+	content: "";
+	position: absolute;
+    z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.6;
+	background-color: #1f1f54;
+}
+
+.hire-content h2 {
+	color: #fff;
+	font-size: 38px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.hire-content p {
+	color: #fff;
+	font-size: 18px;
+	margin: 20px 0 0 0;
+}
+
+.hire-content .hire-btn {
+	margin-top: 20px;
+}
+
+.hire-content .hire-btn .default-btn {
+    margin-right: 15px;
+}

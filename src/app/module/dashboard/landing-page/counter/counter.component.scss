@@ -1,0 +1,43 @@
+/*************************************
+ ** - 12 - Counter Section CSS
+ *************************************/
+ .counter-area {
+	position: relative;
+	z-index: 1;
+	padding: 120px 0;
+	text-align: center;
+	background: url(../../../../../assets/img/banner-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.counter-area::before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.6;
+	background-color: #1f1f54;
+}
+.counter-area .section-title h5 {
+	color: #ffffff;
+}
+.counter-area .section-title h2 {
+	color: #fff;
+}
+.counter-contents h2 {
+	color: #fff;
+	font-size: 45px;
+	font-weight: 700;
+	margin-bottom: 5px;
+	word-spacing: -5px;
+}
+.counter-contents h3 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+}
