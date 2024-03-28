@@ -47,14 +47,14 @@ $(function () {
 		});
 	
         // Header Sticky
-		$(window).on('scroll',function() {
-            if ($(this).scrollTop() > 120){  
-                $('.navbar-section').addClass("is-sticky");
-            }
-            else{
-                $('.navbar-section').removeClass("is-sticky");
-            }
-        });
+		// $(window).on('scroll',function() {
+        //     if ($(this).scrollTop() > 120){  
+        //         $('.navbar-section').addClass("is-sticky");
+        //     }
+        //     else{
+        //         $('.navbar-section').removeClass("is-sticky");
+        //     }
+        // });
         
         // Mean Menu
 		jQuery('.mean-menu').meanmenu({
