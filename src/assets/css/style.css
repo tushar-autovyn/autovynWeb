@@ -780,8 +780,10 @@ p:last-child {
 
 /*************************************
  ** - 03 - Navbar Section CSS
+/*************************************
+ ** - 03 - Navbar Section CSS
  *************************************/
-.techvio-responsive-nav {
+ .techvio-responsive-nav {
 	display: none;
 }
 
@@ -812,10 +814,10 @@ p:last-child {
 
 .techvio-nav .navbar .navbar-nav .nav-item {
 	position: relative;
-	padding-top: 15px;
+	padding-top: 10px;
 	padding-left: 0;
 	padding-right: 0;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 }
 
 .techvio-nav .navbar .navbar-nav .nav-item a {
@@ -887,13 +889,13 @@ p:last-child {
 }
 
 .techvio-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
-	position: relative;
-	color: #404040;
-	font-size: 16px;
-	font-weight: 600;
-	text-transform: capitalize;
-	padding: 10px 15px;
-	margin: 0;
+    position: relative;
+    color: #404040;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 12px 15px;
+    margin: 0;
 }
 
 .techvio-nav.index-navber .navbar .navbar-nav .nav-item a {
@@ -1117,7 +1119,7 @@ p:last-child {
 }
 
 .navbar-section.is-sticky .navbar-nav .nav-item a {
-	color: #505050;
+	color: #505050 !important;
 }
 
 .navbar-section.is-sticky .navbar-nav .nav-item a:hover, .navbar-section.is-sticky .navbar-nav .nav-item a:focus, .navbar-section.is-sticky .navbar-nav .nav-item a.active {
@@ -1126,10 +1128,17 @@ p:last-child {
 
 .navbar-section.is-sticky .techvio-nav .navbar-brand .white-logo {
 	display: none;
+	
+}
+
+
+.white-logo{
+	width: 170px;
 }
 
 .navbar-section.is-sticky .techvio-nav .navbar-brand .black-logo {
 	display: block;
+	width: 170px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -2000,7 +2009,7 @@ p:last-child {
 }
 .home-slideshow .main-banner-content h1 {
 	color: #ffffff;
-	font-size: 65px;
+	font-size: 49px;
 	font-weight: 700;
 	margin: 0 0 20px 0;
 }
